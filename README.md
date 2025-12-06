@@ -66,7 +66,7 @@ The model undergoes is on continuous development and monitoring.
 
 One of the limitations identified is the class imbalance in suspicious activities transactions. The dataset has total transactions of 5078345 transactions, out of all the transactions, 5073168 are non-suspicious and 5177 are suspicious. The ratio of suspicious transactions to non-suspicious transactions is 0.001 which shows a huge imbalance which will affect the performance of the models. Despite this challenge, resampling is applied to the dataset with the aim of creating a balanced class of data. As all the suspicious transactions are only 5177, the sampling method considered and separated all the suspicious transactions and merged them with the first 8000 transactions of non-suspicious transactions. After using under sampling method, the dataset now has a total 13177 transactions and 11 variables. Figure below shows the class distributions. The left side bar graph shows the class distribution of dataset before resampling and the right-hand side shows the class distribution after resampling.
 
-    ![](https://github.com/PatienceMutede/PatienceMutede_Portfolio/blob/main/Images/class%20dist.png)  
+
 
     
     ![] (https://github.com/PatienceMutede/PatienceMutede_Portfolio/blob/main/Images/Class%20distributions.png)

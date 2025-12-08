@@ -1,5 +1,5 @@
 # PatienceMutede_Detecting_Money_Laundering_Suspicious_Transactions_Using_Machine_Learning_Algorithms
-##[PROJECT 1: DETECTING MONEY LAUNDERING SUSPICIOUS TRANSACTIONS USING MACHINE LEARNING ALGORITHMS (Random Forest, SVM and Logistic Regression)](https://github.com/PatienceMutede/Detecting-Money-Laundering-using-Machine-Learning/blob/main/Detecting_Money_Laundering_Transactions_using_Machine_Learning_Algorithms.ipynb)
+[PROJECT 1: DETECTING MONEY LAUNDERING SUSPICIOUS TRANSACTIONS USING MACHINE LEARNING ALGORITHMS (Random Forest, SVM and Logistic Regression)](https://github.com/PatienceMutede/Detecting-Money-Laundering-using-Machine-Learning/blob/main/Detecting_Money_Laundering_Transactions_using_Machine_Learning_Algorithms.ipynb)
 
 
 **The aim of the project is to identify a more accurate machine learning algorithm that effectively provides accurate alerts of suspicious transactions.**
@@ -103,3 +103,24 @@ Comparing the techniques used in this research, Random Forest performs better th
 Based on precision Random Forest has a high score of 0.99, this implies that the model can correctly identify the suspicious transactions. SVM is ranked as second with 0.81 Precision score. Logistic Regression has the lowest Precision score of 0.76. In comparison, based on precision, SVM underperforms the Random Forest by 0.18, which practically is considered non-significant. SVM outperforms Logistic Regression by 0.05 which is a very small difference. Comparing the Accuracy and Precision scores the ranking of the model does not change, Random Forest still outperforms the rest of the techniques.
 Based on Recall score Random Forest has the best score of 0.99, this implies that the model can correctly identify the positive suspicious instances and minimise the false negatives. SVM is again ranked as second with 0.82 Recall score. Logistic Regression has the lowest Recall score of 0.70. Comparing the Accuracy and Precision scores the ranking of the model did not change, Random Forest still outperforms the rest of the techniques. In conclusion the Random Forest rarely misses the transactions that are suspicious.
 It is very important to note for all the performance metrics of the machine learning techniques per each technique, the accuracy score is higher for Random Forest. For the SVM the higher performance metric is the recall with 0.82 which is higher than its accuracy score of 0.81 which is not much of a difference. The higher performance metric for Logistic Regression is the precision with 0.76, which is higher than its accuracy score of 0.63. This implies that for each technique highest performance metric is not always the accuracy. Other metrics, recall and precision score are very important metrics to also consider for model evaluation.
+
+# **Further Performance Impact**
+
+
+The above projects has been implemented and has improved performance of a Financial Institution. The machine learning algorithms, particularly Random Forest, have significantly improved the business’s anti-money-laundering capabilities. With high recall (0.99) and precision (0.99), Random Forest effectively identifies nearly all suspicious transactions while minimizing false positives, leading to an increase in the number of accurate Suspicious Activity Reports. This allows compliance teams to focus on genuinely high-risk cases, reducing manual workload and improving efficiency. Additionally, the models support enhanced risk-based profiling during client onboarding, accurately flagging potentially high-risk new clients and preventing them from being approved. Overall, the algorithms strengthen detection, improve regulatory compliance, reduce exposure to financial crime, and enhance operational decision-making.
+
+![](https://github.com/PatienceMutede/PatienceMutede_Portfolio/raw/main/Images/findings%20and%20discussions.png)
+
+As shown on the AML(Anti-Money Laundering) report above. Particularly Random Forest provided meaningful benefits to the organisation's AML anti-money-laundering. As shown on the report above there was an increase in Suspicious Reports, since the model achieved high scores in preicsion and recall, the models can accurately detect suspicious activity with fewer false negatives.
+
+**How the algorithms helped**
+
+
+**1. Increase in Suspicious Reports** -
+A higher Recall means more suspicious transactions identified, Random Forest = **0.99** and SVM recall= **0.82**
+High recall means the models captured almost all suspicious transactions, leading to a higher number Suspicious Activity Reports (SARs) being generated, this has improved compliance and reduced crime exposure.
+
+**2. Decrease in High-Risk New Clients** -
+Improved precision meansfewer false positives, Random Forest = **0.99** and SVM recall= **0.82**.
+High precision means the model is very accurate when it labels a transaction. This helps the business avoid incorrectly tagging legitmate new clients as high risk.
+It also helped in better onboarding screening, which has helped clients to identify and block genuinely high risk applicants earlier.

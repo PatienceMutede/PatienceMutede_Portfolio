@@ -1,4 +1,4 @@
-# PatienceMutede_Detecting_Money_Laundering_Suspicious_Transactions_Using_Machine_Learning_Algorithms
+# Detecting Money Laundering Suspicious Transactions Using Machine Learning Algorithms
 [PROJECT 1: DETECTING MONEY LAUNDERING SUSPICIOUS TRANSACTIONS USING MACHINE LEARNING ALGORITHMS (Random Forest, SVM and Logistic Regression)](https://github.com/PatienceMutede/Detecting-Money-Laundering-using-Machine-Learning/blob/main/Detecting_Money_Laundering_Transactions_using_Machine_Learning_Algorithms.ipynb)
 
 

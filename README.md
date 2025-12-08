@@ -6,7 +6,7 @@
 
 It is crucial for a business to identify and understand its financial crime risks and apply appropriate control to its systems. A firm can effectively identify, mitigate, and discourage financial crime through the implementation of robust systems and controls. There are several methods currently used to detect money laundering, these include Rule based systems and Machine learning algorithms. Most banks and financial institutions use Rule based systems to detect and identify concealed observations from any normal activities, but however this has a lot of limitations. Using machine learning algorithms can be better and more efficient than using rule-based systems. 
 
-![](https://raw.githubusercontent.com/PatienceMutede/PatienceMutede_Portfolio/main/Images/Amount%20Paid%20Distribution.png)
+![](https://github.com/PatienceMutede/PatienceMutede_Portfolio/raw/main/Images/Amount%20Paid%20Distribution.png)
 
 
 **Motivation**

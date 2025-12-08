@@ -109,7 +109,8 @@ It is very important to note for all the performance metrics of the machine lear
 
 The above project has been implemented and has improved performance of a Financial Institution. The machine learning algorithms, particularly Random Forest, have significantly improved the business’s anti-money-laundering capabilities. With high recall (0.99) and precision (0.99), Random Forest effectively identifies nearly all suspicious transactions while minimizing false positives, leading to an increase in the number of accurate Suspicious Activity Reports. This allows compliance teams to focus on genuinely high-risk cases, reducing manual workload and improving efficiency. Additionally, the models support enhanced risk-based profiling during client onboarding, accurately flagging potentially high-risk new clients and preventing them from being approved. Overall, the algorithms strengthen detection, improve regulatory compliance, reduce exposure to financial crime, and enhance operational decision-making.
 
-![](https://github.com/PatienceMutede/PatienceMutede_Portfolio/raw/main/Images/findings%20and%20discussions.png)
+![](https://github.com/PatienceMutede/PatienceMutede_Portfolio/raw/main/Images/AML.png)
+
 
 As shown on the AML(Anti-Money Laundering) report above. Particularly Random Forest provided meaningful benefits to the organisation's AML anti-money-laundering. As shown on the report above there was an increase in Suspicious Reports, since the model achieved high scores in preicsion and recall, the models can accurately detect suspicious activity with fewer false negatives.
 

@@ -2,7 +2,7 @@
 [PROJECT 1: DETECTING MONEY LAUNDERING SUSPICIOUS TRANSACTIONS USING MACHINE LEARNING ALGORITHMS (Random Forest, SVM and Logistic Regression)](https://github.com/PatienceMutede/Detecting-Money-Laundering-using-Machine-Learning/blob/main/Detecting_Money_Laundering_Transactions_using_Machine_Learning_Algorithms.ipynb)
 
 
-**The aim of the project is to identify a more accurate machine learning algorithm that effectively provides accurate alerts of suspicious transactions.**
+## **The aim of the project is to identify a more accurate machine learning algorithm that effectively provides accurate alerts of suspicious transactions.**
 
 It is crucial for a business to identify and understand its financial crime risks and apply appropriate control to its systems. A firm can effectively identify, mitigate, and discourage financial crime through the implementation of robust systems and controls. There are several methods currently used to detect money laundering, these include Rule based systems and Machine learning algorithms. Most banks and financial institutions use Rule based systems to detect and identify concealed observations from any normal activities, but however this has a lot of limitations. Using machine learning algorithms can be better and more efficient than using rule-based systems. 
 
@@ -15,7 +15,7 @@ The rapid advancement of technology and global communication has led to a signif
 Money Laundering is a major issue that negatively affects economies, financial institutions, and society at large. Most financial institutions use traditional methods to detect money laundering which involve manual effort which often give a lot of errors. Traditional efforts are based on fixed rules. The limitation with the rule-based system is that the rules must be changed with frequent change in data, and it becomes challenging to integrate changes of rules in the systems which affect the results of the frameworks. Additionally, assessing the performance of a rule-based frameworks is challenging, since each rule must be evaluated individually, which is time consuming. The traditional methods are limited to yes or no outcomes and fail to capture interaction between features. 
 
 
-**Solution and Strategy I considered**
+## **Solution and Strategy I considered**
 
 •	To model machine learning algorithms that can detect potential suspicious money laundering transactions.
 
@@ -25,7 +25,7 @@ Money Laundering is a major issue that negatively affects economies, financial i
 
 This project made use of a Quantitative Research Design. The Design Science Research (DSR) Methodology Process is employed in this project. The relevance of this approach is that it is user centred and first understands the user needs by identifying the problem and showing the importance of the problem. It allows approaching the problem from different angles, supports innovation and creativity. Lastly this research design is most relevant for this research because it reduces risks by first allowing testing and iterative process before implementing the model.
 
-**Understanding the Dataset**
+## **Understanding the Dataset**
 
 •  **Class Imbalance**:The dataset is extremely skewed, it contains over 5 million transactions, but only 5,177 are suspicious, resulting in a highly imbalanced ratio (0.001). Undersampling and oversampling are common solutions; this research uses undersampling.
 
@@ -71,6 +71,8 @@ Figure above compares the amount paid to our target variable. Is Laundering bein
 
 Figure  above shows the correlation between variables. In this research the correlation to be mainly considered is between the target variable and the independent variables. Our target variable is (Is Laundering) which has 2 binary outcomes (Suspicious and Non-Suspicious). From the correlation matrix, it is seen that strong positive and negative correlations exist between some of the variables in our data. The strongest positive correlation is found for:  Is Laundering and Time which is 0.81 • moderate positive correlation between Is Laundering and Account.1 which is 0.68. There is strong negative correlation between Is Laundering and the Payment Format which is -0.86 and moderate negative correlation between Is Laundering and Receiving Currency and Is Laundering and Payment Currency. Overall, the correlation matrix suggests that there is no correlation between Is Laundering and amount paid and received. The Correlation matrix suggests that amount paid, and amount received is not significant in predicting whether a transaction is suspicious or not. It suggests that Timestamp is very important in predicting whether a transaction is suspicious or not. This shows that there is need to consider and focus on the time transactions occur. The negative correlation between Is laundering and the payment format suggests that the more frequent a particular payment format is used the less suspicious the transaction will be for the transaction using that payment format, same applies for receiving currency, the more frequent the receiving currency appeared, the less suspicious.
 
+## Model Performance
+
 **Random Forest Results**
 
 The accuracy of the Random Forest in predicting suspicious money laundering transactions is 0.998. Hyperparameter tuning was done but it did not improve how the model performs. The performance metrics still did not change after hyperparameter tuning. Figure 4.6 below shows the confusion Matrix for the Random Forest Model. Number of True Positives (TP) is 1046 and False Positives is 0, meaning that the technique is good at detecting suspicious transactions because 0 transactions are detected as false positives. False Negatives detected are 3 transactions which is also not bad and True Negatives total is 1537, meaning that the there is no non-suspicious transaction that is detected as suspicious by the Random Forest model. Overall, the model predicts 99%, 1046 suspicious transactions out of a total 1049 suspicious transactions.
@@ -104,7 +106,7 @@ Based on precision Random Forest has a high score of 0.99, this implies that the
 Based on Recall score Random Forest has the best score of 0.99, this implies that the model can correctly identify the positive suspicious instances and minimise the false negatives. SVM is again ranked as second with 0.82 Recall score. Logistic Regression has the lowest Recall score of 0.70. Comparing the Accuracy and Precision scores the ranking of the model did not change, Random Forest still outperforms the rest of the techniques. In conclusion the Random Forest rarely misses the transactions that are suspicious.
 It is very important to note for all the performance metrics of the machine learning techniques per each technique, the accuracy score is higher for Random Forest. For the SVM the higher performance metric is the recall with 0.82 which is higher than its accuracy score of 0.81 which is not much of a difference. The higher performance metric for Logistic Regression is the precision with 0.76, which is higher than its accuracy score of 0.63. This implies that for each technique highest performance metric is not always the accuracy. Other metrics, recall and precision score are very important metrics to also consider for model evaluation.
 
-# **Project Impact**
+## **Project Impact**
 
 
 The above project has been implemented and has improved performance of a Financial Institution. The machine learning algorithms, particularly Random Forest, have significantly improved the business’s anti-money-laundering capabilities. With high recall (0.99) and precision (0.99), Random Forest effectively identifies nearly all suspicious transactions while minimizing false positives, leading to an increase in the number of accurate Suspicious Activity Reports. This allows compliance teams to focus on genuinely high-risk cases, reducing manual workload and improving efficiency. Additionally, the models support enhanced risk-based profiling during client onboarding, accurately flagging potentially high-risk new clients and preventing them from being approved. Overall, the algorithms strengthen detection, improve regulatory compliance, reduce exposure to financial crime, and enhance operational decision-making.

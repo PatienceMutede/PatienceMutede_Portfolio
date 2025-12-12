@@ -1,13 +1,13 @@
 # Detecting Money Laundering Suspicious Transactions Using Machine Learning Algorithms
-[PROJECT 1: DETECTING MONEY LAUNDERING SUSPICIOUS TRANSACTIONS USING MACHINE LEARNING ALGORITHMS (Random Forest, SVM and Logistic Regression)](https://github.com/PatienceMutede/Detecting-Money-Laundering-using-Machine-Learning/blob/main/Detecting_Money_Laundering_Transactions_using_Machine_Learning_Algorithms.ipynb)
+[PROJECT 1: DETECTING MONEY LAUNDERING SUSPICIOUS TRANSACTIONS USING MACHINE LEARNING ALGORITHMS (Random Forest, SVM and Logistic Regression)](https://github.com/PatienceMutede/Real-Estate-Price-Prediction/blob/75b9ba0563813b54b9bd7604b01b59eb2b8706cc/Real_Estate_Price_Prediction_project.ipynb)
 
-
+https://github.com/PatienceMutede/Real-Estate-Price-Prediction/blob/75b9ba0563813b54b9bd7604b01b59eb2b8706cc/Real_Estate_Price_Prediction_project.ipynb
 ## **The aim of the project is to identify a more accurate machine learning algorithm that effectively provides accurate alerts of suspicious transactions.**
 
 It is crucial for a business to identify and understand its financial crime risks and apply appropriate control to its systems. A firm can effectively identify, mitigate, and discourage financial crime through the implementation of robust systems and controls. There are several methods currently used to detect money laundering, these include Rule based systems and Machine learning algorithms. Most banks and financial institutions use Rule based systems to detect and identify concealed observations from any normal activities, but however this has a lot of limitations. Using machine learning algorithms can be better and more efficient than using rule-based systems. 
 
 **Motivation**
-
+(https://github.com/PatienceMutede/Detecting-Money-Laundering-using-Machine-Learning/blob/main/Detecting_Money_Laundering_Transactions_using_Machine_Learning_Algorithms.ipynb)
 The rapid advancement of technology and global communication has led to a significant increase in fraud, causing financial losses to businesses. Despite the increasing financial crime rates, there has been an increase in the availability of data and big data technologies which has made it easier to uncover insights from data using different machine learning algorithms. There is a significant need for banks to maximise and harness the availability of data to establish robust systems and effective controls for anti-money laundering using advanced analytical techniques. 
 
 **The Problem in the Financial Crime field**

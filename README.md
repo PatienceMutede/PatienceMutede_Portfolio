@@ -7,7 +7,7 @@
 It is crucial for a business to identify and understand its financial crime risks and apply appropriate control to its systems. A firm can effectively identify, mitigate, and discourage financial crime through the implementation of robust systems and controls. There are several methods currently used to detect money laundering, these include Rule based systems and Machine learning algorithms. Most banks and financial institutions use Rule based systems to detect and identify concealed observations from any normal activities, but however this has a lot of limitations. Using machine learning algorithms can be better and more efficient than using rule-based systems. 
 
 **Motivation**
-(https://github.com/PatienceMutede/Detecting-Money-Laundering-using-Machine-Learning/blob/main/Detecting_Money_Laundering_Transactions_using_Machine_Learning_Algorithms.ipynb)
+
 The rapid advancement of technology and global communication has led to a significant increase in fraud, causing financial losses to businesses. Despite the increasing financial crime rates, there has been an increase in the availability of data and big data technologies which has made it easier to uncover insights from data using different machine learning algorithms. There is a significant need for banks to maximise and harness the availability of data to establish robust systems and effective controls for anti-money laundering using advanced analytical techniques. 
 
 **The Problem in the Financial Crime field**
@@ -50,7 +50,7 @@ One of the limitations wasclass imbalance: 5 073 168 non suspicious vs 5 177 sus
  ![](https://github.com/PatienceMutede/PatienceMutede_Portfolio/raw/main/Images/class%20dist.png) ![](https://github.com/PatienceMutede/PatienceMutede_Portfolio/raw/main/Images/Class%20distributions.png)   
 
 
-#For data exploration, the descriptive statistics ofand visualisations were used to understand the distribution of the data and identify relationships between variables. Understanding all the data types in the dataset is very important. It is very important to understand the amount transacted in detecting suspicious transactions
+For data exploration, the descriptive statistics ofand visualisations were used to understand the distribution of the data and identify relationships between variables. Understanding all the data types in the dataset is very important. It is very important to understand the amount transacted in detecting suspicious transactions
 
 In this project, amount paid, and amount received are equal. This means that the exact amount paid is the exact amount received. Total count of the amount paid is 13177, the average amount of the transactions is 1.4 million. The minimum is very small amount of 0.0032 and maximum a very huge amount of 84 billion. Standard deviation is 957 million, the standard deviation is high showing that the data points are spread over a wide range, and they are not close to the mean. To further investigate how the data points of the amount paid and amount received are distributed, Figure below shows a distribution plot and a box plot of the data points of amount paid and amount received respectively.
 
